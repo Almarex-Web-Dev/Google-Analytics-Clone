@@ -1,0 +1,859 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.5);
+
+}
+.header-wrapper{
+    width: 85%;
+    margin: 25px auto 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+.menu-icon{
+    width: 40px;
+    height: 25px;
+    display: none;
+}
+.google{
+    width: 100px;
+    height: auto; 
+}
+.header h2{
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+
+/*HEADER SECTION ENDS HERE */
+/*HEADER SECTION ENDS HERE */
+/*HEADER SECTION ENDS HERE */
+
+
+.hero-section{
+    width: 100%;
+    display: flex;
+}
+.content-desc{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+.content-desc h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.content-desc p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-bottom: 50px;
+}
+.hero-section img{
+    width: 400px;
+    height: auto;
+    display: none;
+}
+
+
+/*HERO SECTION ENDS HERE*/
+/*HERO SECTION ENDS HERE*/
+/*HERO SECTION ENDS HERE*/
+
+
+.analytics-wrapper{
+    width: 100%;
+    height: auto;
+    background: #1a70c6; 
+    padding: 10px 0;
+}
+.analytics-section{
+    width: 95%;
+    margin: auto;
+}
+.analytics-section h1{
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0; 
+}
+.analytics-card-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.analytics-card{
+    width: 100%;
+    background: #fff;
+    height: 80vh;
+    margin-bottom: 15px;
+    position: relative;
+}
+.analytics-card img{
+    width: 100px;
+    height: auto;
+    margin: 40px 0;
+   
+}
+.analytics-desc{
+    width: 85%;
+    margin: auto;
+    
+}
+.analytics-desc .arrow{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    bottom: -5px;
+    right: 20px;
+}
+.analytics-desc h2{
+    margin:  0 0 50px;
+}
+.analytics-desc p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+
+#instructors{
+    margin: 25px 0 25px 15px;
+    font-weight: 400;
+}
+.instrcuctors-section{
+    width: 95%;
+    margin: 50px  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.instructor-info-wrapper img{
+    display: none;
+}
+.instructor-info-wrapper{
+    width: 100%;
+    background: #e5e5e5;
+    display: flex;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.5);
+    padding: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.instructor-info-wrapper::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+.instructor-info h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.instructor-info p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+
+.mini-course{
+    width: 90%;
+    margin: auto;
+}
+.mini-course h1{
+     margin-bottom: 50px;
+}
+.mini-course p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+.google-courses{
+    width: 95%;
+    margin: 35px  auto 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.courses{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #dddddd;
+    padding: 20px;
+    direction: flex;
+    font-size: 1.2rem;
+    box-shadow: 2px 3px 3px 0 rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+    text-align: center;
+   
+}
+.courses img{
+    width: 100px;
+    height: auto;
+}
+
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+
+
+.google-apps-wrapper{
+    width: 100%;
+    height: auto;
+    margin: 40px 0 0;
+    position: relative;
+    background: #dddddd;
+    padding: 20px;
+  
+}
+.google-apps-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.google-apps-wrapper::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    
+}
+.google-apps-wrapper h2{
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.google-apps{
+    width: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*=================*/
+/*=================*/
+/*=================*/
+
+footer{
+   width: 100%;
+   height: 10vh;
+   display: none;
+    padding: 20px;
+}
+.footer-section p{
+    width: 170px;
+    display: inline-block;
+    margin-right: 15px;
+    transform: translateX(600px);
+}
+
+
+/*MEDIA QUERIES SECTION*/
+/*MEDIA QUERIES SECTION*/
+/*MEDIA QUERIES SECTION*/
+
+@media only screen and (min-width: 320px){
+    
+.header{
+    height: 10vh;
+}
+.header-wrapper{
+    margin: 25px auto 0;
+}
+.header .menu-icon{
+    width: 30px;
+    height: 20px;
+    display: block;
+}
+.google{
+    width: 100px;
+    height: auto;
+    margin: 0; 
+}
+.header h2{
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+    
+    /*HERO SECTION*/
+    /*HERO SECTION*/
+    
+.content-desc h1{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.content-desc p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}  
+    /*HERO SECTION ENDS HERE*/
+    /*HERO SECTION ENDS HERE*/
+    
+.analytics-wrapper{
+    width: 100%;
+    height: auto;
+    background: #1a70c6; 
+    padding: 10px 0;
+}
+.analytics-section{
+    width: 95%;
+    margin: auto;
+}
+.analytics-section h1{
+    margin: 20px 0; 
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+.analytics-card{
+    width: 100%;
+    background: #fff;
+    height: 110vh;
+    margin-bottom: 10px;
+   
+}
+.analytics-card img{
+    width: 80px;
+    height: auto;
+    margin: 30px 0;
+   
+}
+.analytics-desc h2{
+    margin:  0 0 40px;
+}
+.analytics-desc p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+  
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+
+#instructors{
+    font-size: 1.5rem;
+}
+.instrcuctors-section{
+    width: 95%;
+    margin: 30px  auto;
+}
+.instructor-info-wrapper::after{
+    top: 60px;
+}
+.instructor-info h2{
+    font-size: 1.2rem;
+}
+.instructor-info p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+    
+.mini-course h1{
+    font-size: 1.4rem;
+     margin-bottom: 25px;
+}
+.mini-course p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.google-courses{
+    margin: 30px  auto 15px;
+    
+}
+.courses{
+    font-size: 1rem;
+}
+.courses img{
+    width: 70px;
+    height: auto;
+}
+
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+
+    
+.google-apps-wrapper{
+    margin: 30px 0 0;
+}
+.google-apps-wrapper::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    
+}
+.google-apps-wrapper h2{
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+.google-apps{
+    width: 70%;
+    margin: 15px auto;
+}
+
+/*=================*/
+/*=================*/
+/*=================*/
+    
+}
+
+@media only screen and (min-width: 768px){
+    
+.analytics-section h1{
+    font-size: 1.7rem;
+}
+.analytics-card{
+    height: 70vh;
+}
+.analytics-card img{
+    width: 100px;
+    height: auto;
+    margin: 25px 0;
+   
+}
+.analytics-desc h2{
+    margin:  0 0 30px;
+}
+.analytics-desc p{
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
+
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+    
+.instrcuctors-section{
+    width: 95%;
+    margin: 30px  auto;
+}
+.instructor-info p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+
+.mini-course{
+    width: 90%;
+    margin: auto;
+}
+.mini-course h1{
+     margin-bottom: 50px;
+}
+.mini-course p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+.google-courses{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.courses{
+    width: 45%;
+    height: auto;
+    background: #dddddd;
+    padding: 20px;
+    font-size: 1rem;
+     margin: 0 10px 15px 0;
+   
+}
+.courses img{
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+
+
+/*=================*/
+/*=================*/
+/*=================*/
+.instrcuctors-section{
+    width: 95%;
+    margin: 50px  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.instructor-info-wrapper img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    margin-right: 20px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    
+}
+.instructor-info-wrapper{
+    width: 100%;
+    background: #e5e5e5;
+    display: flex;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.5);
+    padding: 25px;
+    margin-bottom: 15px;
+}
+    
+    
+}
+
+
+/*ANOTHER BREAK POINT IS DOWN HERE*/
+/*ANOTHER BREAK POINT IS DOWN HERE*/
+/*ANOTHER BREAK POINT IS DOWN HERE*/
+
+
+@media only screen and (min-width: 1024px){
+    
+.header-wrapper{
+    width: 80%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+.header .menu-icon{
+    display: none;
+}
+.google{
+    width: 170px;
+    height: auto; 
+}
+.header h2{
+    margin-top: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+/*HEADER SECTION ENDS HERE */
+/*HEADER SECTION ENDS HERE */
+/*HEADER SECTION ENDS HERE */
+
+
+.hero-section{
+    width: 100%;
+    display: flex;
+}
+.content-desc{
+    width: 500px;
+    margin: auto;  
+    top: 0px;
+}
+.content-desc h1{
+    font-size: 2.7rem;
+    margin-bottom: 30px;
+}
+.content-desc p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.hero-section img{
+    width: 700px;
+    height: auto;
+    display: block;
+}
+
+/*HERO SECTION ENDS HERE*/
+/*HERO SECTION ENDS HERE*/
+/*HERO SECTION ENDS HERE*/
+
+.analytics-section{
+    width: 90%;
+    margin: auto;
+}
+.analytics-card-wrapper{
+    flex-direction: row;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+.analytics-card{
+    width: 280px;
+    background: #fff;
+    height: 60vh;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.analytics-card img{
+    width: 50px;
+    height: auto;
+    margin: 25px 0;
+   
+}
+.analytics-desc{
+    width: 85%;
+    margin: auto;
+}
+.analytics-desc h2{
+    margin:  0 0 35px;
+    font-size: 1.3rem;
+}
+.analytics-desc p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+       
+
+  
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+/*ANALYTICS SECTION ENDS HERE*/
+    
+    #instructors{
+    margin: 25px 0 25px 15px;
+    font-weight: 400;
+}
+.instrcuctors-section{
+    width: 95%;
+    margin: 50px  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.instructor-info-wrapper img{
+    display: none;
+}
+.instructor-info-wrapper{
+    width: 100%;
+    background: #e5e5e5;
+    display: flex;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.5);
+    padding: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.instructor-info-wrapper::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+.instructor-info h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.instructor-info p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+    
+    #instructors{
+    margin: 25px 0 25px 15px;
+    font-weight: 400;
+}
+.instrcuctors-section{
+    width: 95%;
+    margin: 50px  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.instructor-info-wrapper img{
+    display: none;
+}
+.instructor-info-wrapper{
+    width: 100%;
+    background: #e5e5e5;
+    display: flex;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.5);
+    padding: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.instructor-info-wrapper::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #7b7b7b;
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+.instructor-info h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.instructor-info p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+    
+    #instructors{
+    margin: 25px 0 25px 25px;
+    font-weight: 400;
+}
+.instructor-info-wrapper img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: relative;
+    top: -23px;
+    left: -23px;
+}
+.instructor-info h2{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.instructor-info p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+/*INSTRUCTORS INFO ENDS HERE*/
+    
+ .mini-course{
+    width: 90%;
+    margin: auto;
+}
+.mini-course h1{
+     margin-bottom: 35px;
+}
+.mini-course p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+.google-courses{
+    width: 90%;
+    margin: 35px  auto 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.courses{
+    width: 280px;
+    margin-right: 20px;
+}
+.courses img{
+    width: 100px;
+    height: auto;
+}
+
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+/*GOOGLE COURSES ENDS HERE*/
+
+
+.google-apps-container{
+    padding: 20px 0;
+     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+}
+.google-apps-wrapper h2{
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.google-apps{
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+    .google-apps img{
+        width: 70px;
+        margin: 0 auto 10px;
+    }
+
+/*=================*/
+/*=================*/
+/*=================*/
+footer{
+   display: block;
+    color: #000;
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
